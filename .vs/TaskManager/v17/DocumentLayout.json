@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|d:\\descargas\\code\\.net\\taskmanagerapi\\taskmanager.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:taskmanager.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|d:\\descargas\\code\\.net\\taskmanagerapi\\taskmanager.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:taskmanager.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|d:\\descargas\\code\\.net\\taskmanagerapi\\taskmanager.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:taskmanager.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|d:\\descargas\\code\\.net\\taskmanagerapi\\taskmanager.domain\\enums\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:taskmanager.domain\\enums\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|d:\\descargas\\code\\.net\\taskmanagerapi\\taskmanager.domain\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:taskmanager.domain\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|d:\\descargas\\code\\.net\\taskmanagerapi\\taskmanager.domain\\taskmanager.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9D051D9C-88E2-46B8-BCE7-43661CAAB4D9}|TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:taskmanager.domain\\taskmanager.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C457F4-B2EA-448B-BF1F-3D078DB9FA10}|TaskManager.Application\\TaskManager.Application.csproj|d:\\descargas\\code\\.net\\taskmanagerapi\\taskmanager.application\\taskmanager.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{76C457F4-B2EA-448B-BF1F-3D078DB9FA10}|TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:taskmanager.application\\taskmanager.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF9D258C-B3C9-4FF1-8B5F-B50F3B676D4D}|TaskManager.API\\TaskManager.API.csproj|d:\\descargas\\code\\.net\\taskmanagerapi\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF9D258C-B3C9-4FF1-8B5F-B50F3B676D4D}|TaskManager.API\\TaskManager.API.csproj|solutionrelative:taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,15 +47,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskManager.Domain\\Entities\\TaskItem.cs",
+              "ToolTip": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "TaskManager.Domain\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T19:00:52.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "TaskManager.Domain\\Entities\\Project.cs",
+              "ToolTip": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\Entities\\Project.cs",
+              "RelativeToolTip": "TaskManager.Domain\\Entities\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T19:00:36.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TaskManager.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "TaskManager.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T19:00:01.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskPriority.cs",
+              "DocumentMoniker": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\Enums\\TaskPriority.cs",
+              "RelativeDocumentMoniker": "TaskManager.Domain\\Enums\\TaskPriority.cs",
+              "ToolTip": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\Enums\\TaskPriority.cs",
+              "RelativeToolTip": "TaskManager.Domain\\Enums\\TaskPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T18:59:37.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\Enums\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "TaskManager.Domain\\Enums\\TaskStatus.cs",
+              "ToolTip": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\Enums\\TaskStatus.cs",
+              "RelativeToolTip": "TaskManager.Domain\\Enums\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T18:59:03.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskManager.Domain",
+              "DocumentMoniker": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\TaskManager.Domain.csproj",
+              "RelativeDocumentMoniker": "TaskManager.Domain\\TaskManager.Domain.csproj",
+              "ToolTip": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Domain\\TaskManager.Domain.csproj",
+              "RelativeToolTip": "TaskManager.Domain\\TaskManager.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-05T18:58:26.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskManager.Application.csproj",
+              "DocumentMoniker": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Application\\TaskManager.Application.csproj",
+              "RelativeDocumentMoniker": "TaskManager.Application\\TaskManager.Application.csproj",
+              "ToolTip": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Application\\TaskManager.Application.csproj",
+              "RelativeToolTip": "TaskManager.Application\\TaskManager.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-04T15:06:07.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.API\\Program.cs",
               "RelativeDocumentMoniker": "TaskManager.API\\Program.cs",
               "ToolTip": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.API\\Program.cs",
               "RelativeToolTip": "TaskManager.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T19:45:00.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T19:45:00.588Z"
             }
           ]
         }

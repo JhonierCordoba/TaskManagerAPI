@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{76C457F4-B2EA-448B-BF1F-3D078DB9FA10}|TaskManager.Application\\TaskManager.Application.csproj|d:\\descargas\\code\\.net\\taskmanagerapi\\taskmanager.application\\taskmanager.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{76C457F4-B2EA-448B-BF1F-3D078DB9FA10}|TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:taskmanager.application\\taskmanager.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF9D258C-B3C9-4FF1-8B5F-B50F3B676D4D}|TaskManager.API\\TaskManager.API.csproj|d:\\descargas\\code\\.net\\taskmanagerapi\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF9D258C-B3C9-4FF1-8B5F-B50F3B676D4D}|TaskManager.API\\TaskManager.API.csproj|solutionrelative:taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TaskManager.Application",
+              "DocumentMoniker": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Application\\TaskManager.Application.csproj",
+              "RelativeDocumentMoniker": "TaskManager.Application\\TaskManager.Application.csproj",
+              "ToolTip": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.Application\\TaskManager.Application.csproj",
+              "RelativeToolTip": "TaskManager.Application\\TaskManager.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-04T15:06:07.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.API\\Program.cs",
               "RelativeDocumentMoniker": "TaskManager.API\\Program.cs",
               "ToolTip": "D:\\Descargas\\code\\.Net\\TaskManagerAPI\\TaskManager.API\\Program.cs",
               "RelativeToolTip": "TaskManager.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T19:45:00.588Z",
               "EditorCaption": ""
