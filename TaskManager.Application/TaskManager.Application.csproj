@@ -10,17 +10,6 @@
     <PackageReference Include="MediatR" Version="14.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Common\Exceptions\" />
-    <Folder Include="Common\Behaviors\" />
-    <Folder Include="DTOs\" />
-    <Folder Include="Features\Auth\Commands\" />
-    <Folder Include="Features\Projects\Commands\" />
-    <Folder Include="Features\Projects\Queries\" />
-    <Folder Include="Features\Tasks\Commands\" />
-    <Folder Include="Features\Tasks\Queries\" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
