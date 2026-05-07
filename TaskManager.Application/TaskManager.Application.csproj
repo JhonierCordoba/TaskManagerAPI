@@ -11,8 +11,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Common\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Behaviors\" />
     <Folder Include="DTOs\" />
+    <Folder Include="Features\Auth\Commands\" />
+    <Folder Include="Features\Projects\Commands\" />
+    <Folder Include="Features\Projects\Queries\" />
+    <Folder Include="Features\Tasks\Commands\" />
+    <Folder Include="Features\Tasks\Queries\" />
   </ItemGroup>
 
   <PropertyGroup>
