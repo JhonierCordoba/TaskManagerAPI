@@ -1,5 +1,9 @@
 # Task Manager API
 
+![CI](https://github.com/your-username/TaskManagerAPI/actions/workflows/ci.yml/badge.svg)
+![.NET](https://img.shields.io/badge/.NET-9.0-512BD4)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 A RESTful API for managing projects and tasks, built with .NET 9 and Clean Architecture principles.
 
 ## Tech Stack
@@ -77,6 +81,34 @@ dotnet run --project TaskManager.API
 
 5. Open the Scalar UI at `https://localhost:{port}/scalar/v1`
 
+> **Note:** the `Jwt:Key` shipped in `appsettings.json` is a placeholder for local development only. For any real deployment, override it with an environment variable (`Jwt__Key`) or `dotnet user-secrets` instead of committing a real key.
+
+### Running with Docker
+
+The whole stack (API + SQL Server) can be started with a single command:
+
+```bash
+docker compose up --build
+```
+
+This builds the API image from `TaskManager.API/Dockerfile` and starts a SQL Server container. Once both containers are healthy, apply the migrations against the containerized database and the API will be available at `http://localhost:8080`:
+
+```bash
+dotnet ef database update --project TaskManager.Infrastructure --startup-project TaskManager.API --connection "Server=localhost;Database=TaskManagerDB;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True"
+```
+
+Open `http://localhost:8080/scalar/v1` (Scalar is enabled because `docker-compose.yml` sets `ASPNETCORE_ENVIRONMENT=Development`).
+
+## Testing
+
+Unit tests cover the Application layer's command handlers and FluentValidation validators (`TaskManager.Tests`), using xUnit and Moq.
+
+```bash
+dotnet test
+```
+
+CI runs `dotnet build` and `dotnet test` on every push and pull request to `main` (see `.github/workflows/ci.yml`).
+
 ## API Endpoints
 
 ### Auth
@@ -142,9 +174,15 @@ src/
 │   ├── Entities/
 │   ├── Enums/
 │   └── Interfaces/
-└── TaskManager.Infrastructure/
-    ├── Persistence/
-    │   ├── Configurations/
-    │   └── Repositories/
-    └── Services/
+├── TaskManager.Infrastructure/
+│   ├── Persistence/
+│   │   ├── Configurations/
+│   │   └── Repositories/
+│   └── Services/
+└── TaskManager.Tests/
+    └── Features/
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
